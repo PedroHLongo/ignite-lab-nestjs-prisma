@@ -3,6 +3,7 @@
 #### Added  
 - Notification entitie
 - Notification content entitie
+- Tests for notification and content
 
 ### [0.0.2] - 2022-12-12  
 

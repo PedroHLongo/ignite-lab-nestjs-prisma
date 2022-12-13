@@ -3,7 +3,9 @@
 #### Added  
 - Notification entitie
 - Notification content entitie
+- Send notification use case
 - Tests for notification and content
+- Tests for sendNotification useCase
 
 ### [0.0.2] - 2022-12-12  
 

@@ -3,10 +3,11 @@ import { Replace } from 'src/helpers/Replace';
 import { Content } from './content';
 
 export interface NotificationProps {
-  recepientId: string;
+  recipientId: string;
   content: Content;
   category: string;
   readAt?: Date | null;
+  canceledAt?: Date | null;
   createdAt: Date;
 }
 
@@ -26,12 +27,12 @@ export class Notification {
     return this._id;
   }
 
-  public set recepientId(recepientId: string) {
-    this.props.recepientId = recepientId;
+  public set recipientId(recipientId: string) {
+    this.props.recipientId = recipientId;
   }
 
-  public get recepientId(): string {
-    return this.props.recepientId;
+  public get recipientId(): string {
+    return this.props.recipientId;
   }
 
   public set content(content: Content) {
@@ -56,6 +57,14 @@ export class Notification {
 
   public get readAt(): Date | null | undefined {
     return this.props.readAt;
+  }
+
+  public cancel() {
+    this.props.canceledAt = new Date();
+  }
+
+  public get canceledAt(): Date | null | undefined {
+    return this.props.canceledAt;
   }
 
   public get createdAt(): Date {

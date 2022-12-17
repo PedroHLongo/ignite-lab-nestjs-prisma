@@ -9,6 +9,7 @@
 - Notification factory
 - Read notification and test
 - Unread notification and test
+- Routes for all endpoints
 
 #### Changed
 - Implemented methods on prisma repository

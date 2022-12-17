@@ -34,7 +34,6 @@ export class InMemoryNotificationsRepository
 
   async create(notification: Notification) {
     this.notifications.push(notification);
-    console.log('1');
   }
 
   async save(notification: Notification): Promise<void> {

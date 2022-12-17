@@ -7,6 +7,8 @@
 - countRecipientNotifications useCase and tests
 - getRecipientNotification useCase and tests
 - Notification factory
+- Read notification and test
+- Unread notification and test
 
 ### [0.0.3] - 2022-12-13
 

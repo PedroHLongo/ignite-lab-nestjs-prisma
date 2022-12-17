@@ -22,7 +22,7 @@ export class SendNotification {
     const { recepientId, content, category } = request;
 
     const notification = new Notification({
-      recepientId,
+      recipientId: recepientId,
       content: new Content(content),
       category,
     });

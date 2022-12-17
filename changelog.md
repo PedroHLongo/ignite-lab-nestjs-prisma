@@ -1,3 +1,19 @@
+### [0.0.4] - 2022-14-12
+
+#### Added
+- Mapper for Notification repository (database)
+- Mapper for Notification controller (HTTP)
+- Cancel notification useCase and tests
+- countRecipientNotifications useCase and tests
+- getRecipientNotification useCase and tests
+- Notification factory
+- Read notification and test
+- Unread notification and test
+- Routes for all endpoints
+
+#### Changed
+- Implemented methods on prisma repository
+
 ### [0.0.3] - 2022-12-13
 
 #### Added  

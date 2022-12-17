@@ -6,7 +6,7 @@ describe('Notification', () => {
     const notification = new Notification({
       content: new Content('New friend request'),
       category: 'social',
-      recepientId: 'example-recepient-id',
+      recipientId: 'example-recepient-id',
     });
 
     expect(notification).toBeTruthy();

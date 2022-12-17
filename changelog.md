@@ -10,6 +10,9 @@
 - Read notification and test
 - Unread notification and test
 
+#### Changed
+- Implemented methods on prisma repository
+
 ### [0.0.3] - 2022-12-13
 
 #### Added  
